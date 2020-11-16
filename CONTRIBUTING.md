@@ -21,7 +21,7 @@ There is a pre-commit hook included in this repository. To use it, simply copy `
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). 
 We actively welcome your pull requests:
 
-1. Fork the repo and create your branch from `master`.
+1. Fork the repo and create your branch from `main`.
 2. If you've changed inputs, outputs or behavior, update the documentation.
 3. Make sure your code lints.
 4. Make sure your commits are conventional.
