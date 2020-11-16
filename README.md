@@ -18,3 +18,18 @@ A Terraform module that builds compliant AWS S3 Buckets.
 | Name   | Type   | Description                  |
 |--------|--------|------------------------------|
 | bucket | object | The resultant AWS S3 Bucket. |
+
+## Example Usage
+
+```hcl-terraform
+module "bucket" {
+  source = "git::https://github.com/tlkamp/terraform-s3-bucket.git"
+  
+  bucket_name          = "example-bucket"
+  versioned            = true
+  encryption_algorithm = "aws:kms"
+  kms_key_id           = "my_kms_key_arn"
+  environment          = "prod"
+  owner                = "tlkamp"
+}
+```
