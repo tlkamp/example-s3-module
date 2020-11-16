@@ -1,0 +1,11 @@
+# IDE files
+.idea/
+*.iml
+
+# Node packages
+node_modules/
+
+# Terraform-related files
+.terraform
+*.tfstate
+*.backup
