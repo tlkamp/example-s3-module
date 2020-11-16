@@ -12,7 +12,10 @@ We use GitHub to host code, track issues and feature requests and accept pull re
 ## We Use Semantic Versioning + Commitizen
 This project is commitizen-friendly. We use semantic versioning for this repository and adhering to conventional commits makes the release process easier.
 
+
 Follow the guide for working with Commitizen [here](https://github.com/commitizen/cz-cli).
+
+There is a pre-commit hook included in this repository. To use it, simply copy `prepare-commit-msg` into `.git/hooks/`.
 
 ## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). 
